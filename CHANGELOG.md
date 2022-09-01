@@ -1,3 +1,10 @@
+# 1.0.0 (2022-09-01)
+
+
+### Features
+
+* add app micro frontends ([a75eb26](https://github.com/edwardramirez31/mf-todo-root/commit/a75eb26d712ee2fb94bb20d313f297e40a52f6ee))
+
 # 1.0.0 (2022-08-31)
 
 
