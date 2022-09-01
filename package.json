@@ -1,7 +1,7 @@
 {
-  "name": "@my-app/root-config",
+  "name": "@mf-todo/root-config",
   "scripts": {
-    "start": "webpack serve --port 9000 --env isLocal",
+    "start": "webpack serve --port 3000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write .",
@@ -55,6 +55,6 @@
     "@types/webpack-env": "^1.16.2",
     "single-spa-layout": "^1.6.0"
   },
-  "types": "dist/my-app-root-config.d.ts",
+  "types": "dist/mf-todo-root-config.d.ts",
   "version": "1.0.0"
 }
