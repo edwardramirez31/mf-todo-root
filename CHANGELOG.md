@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/edwardramirez31/mf-todo-root/compare/v1.0.0...v1.1.0) (2022-09-06)
+
+
+### Features
+
+* deploy build to S3 using GitHub actions ([0444986](https://github.com/edwardramirez31/mf-todo-root/commit/044498693dab11a0bb82a1f7f2a465bc37be8cb5))
+
 # 1.0.0 (2022-09-01)
 
 
