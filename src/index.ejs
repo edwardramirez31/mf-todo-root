@@ -50,11 +50,23 @@
     {
       "imports": {
         "@mf-todo/root-config": "//localhost:3000/mf-todo-root-config.js",
-        "@mf-todo/form": "//localhost:8500/mf-todo-form.js",
-        "@mf-todo/items": "//localhost:8501/mf-todo-items.js"
+        "@mf-todo/form": "https://mf-todo.s3.amazonaws.com/mf-todo-form.js",
+        "@mf-todo/items": "https://mf-todo.s3.amazonaws.com/mf-todo-items.js",
+        "@mf-app/utility": "https://mf-todo.s3.amazonaws.com/mf-app-utility.js"
       }
     }
   </script>
+  <% } else { %>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "@mf-todo/root-config": "https://mf-todo.s3.amazonaws.com/mf-todo-root-config.js",
+          "@mf-todo/form": "https://mf-todo.s3.amazonaws.com/mf-todo-form.js",
+          "@mf-todo/items": "https://mf-todo.s3.amazonaws.com/mf-todo-items.js",
+          "@mf-app/utility": "https://mf-todo.s3.amazonaws.com/mf-app-utility.js"
+        }
+      }
+    </script>
   <% } %>
 
   <!--
