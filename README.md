@@ -1,5 +1,7 @@
 # React Micro Frontend Template
 
+This project is about a To Do application that uses the micro frontends architecture and it's deployed automatically to AWS CloudFront. You can take a look [here](https://d9n5ick2dabpy.cloudfront.net/)
+
 ## Getting Started
 
 1. Run the script to initialize the project and install dependencies:
@@ -49,6 +51,18 @@
 - It's recommended to setup the micro frontend apps repositories from [this template](https://github.com/edwardramirez31/micro-frontend-template) to be consistent with project naming convention
 
 - This repository uses Semantic Release. If you don't want to use it:
+
   - Remove the step at `.github` or the entire folder
   - Remove `.releaserc` file
   - Remove `@semantic-release/changelog`, `@semantic-release/git`, `semantic-release` from `package.json`
+
+- To change the favicon, upload it to the S3 bucket and change the ´href´ reference at ´index.ejs´
+
+´´´html
+
+<link 
+  rel="shortcut icon"
+  type="image/icon"
+  href="https://mf-todo.s3.amazonaws.com/favicon.ico"
+>
+´´´
