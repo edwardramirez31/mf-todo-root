@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/edwardramirez31/mf-todo-root/compare/v1.2.0...v1.3.0) (2022-09-08)
+
+
+### Features
+
+* get micro frontend import maps through CloudFront distribution ([c057467](https://github.com/edwardramirez31/mf-todo-root/commit/c057467650c12b837bf17f3f283ace0ac85c4c51))
+
 # [1.2.0](https://github.com/edwardramirez31/mf-todo-root/compare/v1.1.0...v1.2.0) (2022-09-08)
 
 
