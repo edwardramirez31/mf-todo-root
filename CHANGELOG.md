@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/edwardramirez31/mf-todo-root/compare/v1.1.0...v1.2.0) (2022-09-08)
+
+
+### Features
+
+* show favicon at root ([ba355dc](https://github.com/edwardramirez31/mf-todo-root/commit/ba355dc0a3c02dd54057c22411cc269056995497))
+
 # [1.1.0](https://github.com/edwardramirez31/mf-todo-root/compare/v1.0.0...v1.1.0) (2022-09-06)
 
 
